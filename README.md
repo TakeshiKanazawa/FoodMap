@@ -1,7 +1,7 @@
 # ご近所FoodMap(現在地周辺の飲食店検索アプリ)
 ※諸々追記予定
 
-■Classes(フォルダ構成)
+### Classes(フォルダ構成)
  -Model
   -
  -View
@@ -13,10 +13,10 @@
  -API
  
 
-■Architecture
+### Architecture
 ・MVVM
 
-■OverView
+### OverView
  - 突発的な飲み会でお店を探せるアプリ。
  - 焼き鳥やイタリアンなど、直感的にmapから探せる
  - 現在地〜目的地までをルート検索する。
@@ -30,25 +30,25 @@
    プルリクエストを使う(自作自演)。masterへマージと同時にデプロイする(CI/CDの導入)
    ※GitHubのIssuesとProjectsを活用
  
-■Layout
+### Layout
  - 1 StoryBoard + 1 Xib
 
-■Development environment
+### Development environment
  - xcode 11.4 
  - swift5
  
-■CI/CD
+### CI/CD
 Bitrise/fastlane
 
-■others
+### others
 UnitTestができるように
 
-■libraries
+### libraries
 .RxSwift
 ・RxCocoa
 .AlamoFire
 
-■Function
+### Function
 ・現在地取得
 ・周辺の店舗情報取得。店舗カテゴリごとにアノテーションを変更
 ⇨焼き鳥なら鳥、など
@@ -57,9 +57,9 @@ UnitTestができるように
 ・絞り込み機能
 ・検索中はloading画面を表示させる
 
-■完成目標
+### 完成目標
  - 9/7 動作するところまで
  - 9/11 AppStore リリース
  
- "Done Is Better Than Perfct!"
+## "Done Is Better Than Perfct!"
 
