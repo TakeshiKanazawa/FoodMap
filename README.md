@@ -3,7 +3,7 @@
 
 |  TH  |  TH  |
 | ---- | ---- |
-|  TD  |  TD  |
+|   Architecture  |  MVVM  |
 |  TD  |  TD  |
 |  TD  |  TD  |
 |  TD  |  TD  |
