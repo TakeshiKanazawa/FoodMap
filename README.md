@@ -1,20 +1,24 @@
 # ご近所FoodMap(現在地周辺の飲食店検索アプリ)
 ※諸々追記予定
 
-### Classes(フォルダ構成)
+### Architecture
+・MVVMを採用
+
+### Folder structure & Classes
+
  -Model
-  -
+  - HoPepperSearchAPIModel.swift(検索結果を生成するクラス)
+  - Result.swift
+  
  -View
+  - WikipediaSearchAPIViewController.swift(地図、検索画面、検索バー、テーブルビュー表示するクラス)
  
  -ViewModel
- 
- -Model
- 
- -API
- 
+  - HoPepperSearchAPIViewModel.swift(検索バーからの値の受け取り、HotPepperAPI検索／検索結果の返却を行うクラス)
 
-### Architecture
-・MVVM
+ -API
+  - HotPepperAPIClient.swift(HotPepperAPIを呼び出すクラス)
+ 
 
 ### OverView
  - 突発的な飲み会でお店を探せるアプリ。
