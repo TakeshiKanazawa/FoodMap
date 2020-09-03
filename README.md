@@ -16,7 +16,7 @@
 | ----------------------- | ------------------------- | 
 | Architecture            | MVVM                      | 
 | Layout                  | 1 StoryBoard + 1 Xib      | 
-| Development environment |  xcode 11.4, swift5       | 
+| Development environment |  xcode 11.0, swift5       | 
 | CI/CD                   | Bitrise/fastlane          | 
 | libraries               | RxSwift,RxCocoa,AlamoFire | 
 | submit                  | 9/7                       | 
