@@ -1,18 +1,6 @@
 # ご近所FoodMap(現在地周辺の飲食店検索アプリ)
 ※諸々追記予定
 
-|  TH  |  TH  |
-| ---- | ---- |
-|   Architecture  |  MVVM  |
-|  TD  |  TD  |
-|  TD  |  TD  |
-|  TD  |  TD  |
-|  TD  |  TD  |
-|  TD  |  TD  |
-
-### Architecture
-・MVVMを採用
-
 ### Folder structure & Classes
 
  -Model
@@ -43,23 +31,9 @@
    プルリクエストを使う(自作自演)。masterへマージと同時にデプロイする(CI/CDの導入)
    ※GitHubのIssuesとProjectsを活用
  
-### Layout
- - 1 StoryBoard + 1 Xib
-
-### Development environment
- - xcode 11.4 
- - swift5
- 
-### CI/CD
-Bitrise/fastlane
 
 ### others
 UnitTestができるように
-
-### libraries
-.RxSwift
-・RxCocoa
-.AlamoFire
 
 ### Function
 ・現在地取得
@@ -73,6 +47,15 @@ UnitTestができるように
 ### 完成目標
  - 9/7 動作するところまで
  - 9/11 AppStore リリース
+ 
+ |                         |                           | 
+| ----------------------- | ------------------------- | 
+| Architecture            | MVVM                      | 
+| Layout                  | 1 StoryBoard + 1 Xib      | 
+| Development environment |  xcode 11.4, swift5       | 
+| CI/CD                   | Bitrise/fastlane          | 
+| libraries               | RxSwift,RxCocoa,AlamoFire | 
+| submit                  | 9/7                       | 
  
 ## "Done Is Better Than Perfct!"
 
