@@ -1,21 +1,13 @@
 # ご近所FoodMap(現在地周辺の飲食店検索アプリ)
 ※諸々追記予定
 
-### Folder structure & Classes
-
- -Model
-  - HoPepperSearchAPIModel.swift(検索結果を生成するクラス)
-  - Result.swift
-  
- -View
-  - WikipediaSearchAPIViewController.swift(地図、検索画面、検索バー、テーブルビュー表示するクラス)
- 
- -ViewModel
-  - HoPepperSearchAPIViewModel.swift(検索バーからの値の受け取り、HotPepperAPI検索／検索結果の返却を行うクラス)
-
- -API
-  - HotPepperAPIClient.swift(HotPepperAPIを呼び出すクラス)
- 
+| Folder structure |                                                                                                                                                  | 
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | 
+| Model            | HoPepperSearchAPIModel.swift (検索結果を生成するクラス)                                                                                          | 
+|                  | Result.swift                                                                                                                                     | 
+| View             | WikipediaSearchAPIViewController.swift                                              (地図、検索画面、検索バー、テーブルビュー表示するクラス)<br> | 
+| ViewModel        | HoPepperSearchAPIViewModel.swift(検索バーからの値の受け取り、HotPepperAPI検索／検索結果の返却を行うクラス)                                       | 
+| API              | HotPepperAPIClient.swift(HotPepperAPIを呼び出すクラス)                                                                                           | 
 
 ### OverView
  - 突発的な飲み会でお店を探せるアプリ。
@@ -25,10 +17,11 @@
  - HotpepperAPIを使用
  - MapKItを使用(GoogleMapAPIを使用したかったがAPI制限ある為断念)
  
- ■version control
- -GitHubFlowを採用
-  -masterブランチは、常にリリース可能な状態。開発やバグ修正は都度ブランチ切ってわかりやすい名前にする。
-   プルリクエストを使う(自作自演)。masterへマージと同時にデプロイする(CI/CDの導入)
+ ### version control
+   - masterブランチは、常にリリース可能な状態。
+   - 開発やバグ修正は都度ブランチ切ってわかりやすい名前にする。
+   - プルリクエストを使う
+   - masterへマージと同時にデプロイする(CI/CDの導入)
    ※GitHubのIssuesとProjectsを活用
  
 
