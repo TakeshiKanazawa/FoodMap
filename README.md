@@ -7,7 +7,7 @@
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | 
 | Model            | HoPepperSearchAPIModel.swift (検索結果を生成するクラス)                                                                                          | 
 |                  | Result.swift                                                                                                                                     | 
-| View             | WikipediaSearchAPIViewController.swift                                              (地図、検索画面、検索バー、テーブルビュー表示するクラス)<br> | 
+| View             | MapViewController.swift                                              (地図、検索画面、検索バー、テーブルビュー表示するクラス)<br> | 
 | ViewModel        | HoPepperSearchAPIViewModel.swift(検索バーからの値の受け取り、HotPepperAPI検索／検索結果の返却を行うクラス)                                       | 
 | API              | HotPepperAPIClient.swift(HotPepperAPIを呼び出すクラス)                                                                                           | 
 
