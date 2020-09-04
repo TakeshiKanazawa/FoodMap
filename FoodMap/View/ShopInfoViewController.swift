@@ -14,7 +14,7 @@ class ShopInfoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//追加
+
     }
 
 }
