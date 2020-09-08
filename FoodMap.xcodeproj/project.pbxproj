@@ -3,18 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3962F6E92500C51C008A9060 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3962F6E72500C51C008A9060 /* MapViewController.swift */; };
+		3962F6EA2500C51C008A9060 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3962F6E82500C51C008A9060 /* MapViewController.xib */; };
+		3962F6F02500C78C008A9060 /* MapXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3962F6EF2500C78C008A9060 /* MapXibView.swift */; };
+		3962F6F32500DDE8008A9060 /* ShopInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3962F6F12500DDE8008A9060 /* ShopInfoViewController.swift */; };
+		3962F6F42500DDE9008A9060 /* ShopInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3962F6F22500DDE8008A9060 /* ShopInfoViewController.xib */; };
 		396D3B6A24FFACFF001AEA44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D3B6924FFACFF001AEA44 /* AppDelegate.swift */; };
 		396D3B6C24FFACFF001AEA44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D3B6B24FFACFF001AEA44 /* SceneDelegate.swift */; };
-		396D3B6E24FFACFF001AEA44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D3B6D24FFACFF001AEA44 /* ViewController.swift */; };
-		396D3B7124FFACFF001AEA44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396D3B6F24FFACFF001AEA44 /* Main.storyboard */; };
 		396D3B7324FFAD06001AEA44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396D3B7224FFAD06001AEA44 /* Assets.xcassets */; };
 		396D3B7624FFAD06001AEA44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396D3B7424FFAD06001AEA44 /* LaunchScreen.storyboard */; };
 		396D3B8124FFAD07001AEA44 /* FoodMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D3B8024FFAD07001AEA44 /* FoodMapTests.swift */; };
 		396D3B8C24FFAD07001AEA44 /* FoodMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D3B8B24FFAD07001AEA44 /* FoodMapUITests.swift */; };
+		777026CCBBC5AF1D67A2865D /* Pods_FoodMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2887204E6D593D255CED89AE /* Pods_FoodMap.framework */; };
+		832D4E40E8D321D53CFF4F03 /* Pods_FoodMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6CB3024C71B1208057224C4 /* Pods_FoodMapTests.framework */; };
+		BF63D6F0029D824278E239F6 /* Pods_FoodMap_FoodMapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A46420D24DC05E58405420 /* Pods_FoodMap_FoodMapUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15372BF8FF5ADD6AC740172A /* Pods-FoodMap-FoodMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMap-FoodMapUITests.debug.xcconfig"; path = "Target Support Files/Pods-FoodMap-FoodMapUITests/Pods-FoodMap-FoodMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2887204E6D593D255CED89AE /* Pods_FoodMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3962F6E72500C51C008A9060 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3962F6E82500C51C008A9060 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		3962F6EF2500C78C008A9060 /* MapXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapXibView.swift; sourceTree = "<group>"; };
+		3962F6F12500DDE8008A9060 /* ShopInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopInfoViewController.swift; sourceTree = "<group>"; };
+		3962F6F22500DDE8008A9060 /* ShopInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopInfoViewController.xib; sourceTree = "<group>"; };
 		396D3B6624FFACFF001AEA44 /* FoodMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		396D3B6924FFACFF001AEA44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		396D3B6B24FFACFF001AEA44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		396D3B6D24FFACFF001AEA44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		396D3B7024FFACFF001AEA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		396D3B7224FFAD06001AEA44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		396D3B7524FFAD06001AEA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		396D3B7724FFAD06001AEA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +60,13 @@
 		396D3B8724FFAD07001AEA44 /* FoodMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		396D3B8B24FFAD07001AEA44 /* FoodMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMapUITests.swift; sourceTree = "<group>"; };
 		396D3B8D24FFAD07001AEA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D6B6CA9C307CB23A7FD336F /* Pods-FoodMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMap.release.xcconfig"; path = "Target Support Files/Pods-FoodMap/Pods-FoodMap.release.xcconfig"; sourceTree = "<group>"; };
+		734F40342CB57B7E052BB844 /* Pods-FoodMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMapTests.release.xcconfig"; path = "Target Support Files/Pods-FoodMapTests/Pods-FoodMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		A7A46420D24DC05E58405420 /* Pods_FoodMap_FoodMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodMap_FoodMapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CB3024C71B1208057224C4 /* Pods_FoodMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodMapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8DD493E618A4709837F939C /* Pods-FoodMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMapTests.debug.xcconfig"; path = "Target Support Files/Pods-FoodMapTests/Pods-FoodMapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E53C402BC56FCB786E4A7A1D /* Pods-FoodMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMap.debug.xcconfig"; path = "Target Support Files/Pods-FoodMap/Pods-FoodMap.debug.xcconfig"; sourceTree = "<group>"; };
+		EAA18CA93BE5ADAB8C4ABDC7 /* Pods-FoodMap-FoodMapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMap-FoodMapUITests.release.xcconfig"; path = "Target Support Files/Pods-FoodMap-FoodMapUITests/Pods-FoodMap-FoodMapUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				777026CCBBC5AF1D67A2865D /* Pods_FoodMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				832D4E40E8D321D53CFF4F03 /* Pods_FoodMapTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF63D6F0029D824278E239F6 /* Pods_FoodMap_FoodMapUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3962F6E22500C07A008A9060 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3962F6E32500C07E008A9060 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3962F6E72500C51C008A9060 /* MapViewController.swift */,
+				3962F6E82500C51C008A9060 /* MapViewController.xib */,
+				3962F6EF2500C78C008A9060 /* MapXibView.swift */,
+				3962F6F12500DDE8008A9060 /* ShopInfoViewController.swift */,
+				3962F6F22500DDE8008A9060 /* ShopInfoViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3962F6E42500C083008A9060 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3962F6E52500C177008A9060 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		396D3B5D24FFACFF001AEA44 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +137,8 @@
 				396D3B7F24FFAD07001AEA44 /* FoodMapTests */,
 				396D3B8A24FFAD07001AEA44 /* FoodMapUITests */,
 				396D3B6724FFACFF001AEA44 /* Products */,
+				3FC772FCB0E200D0F682FA72 /* Pods */,
+				D2BB2FF1AEE30550EFA36808 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +155,12 @@
 		396D3B6824FFACFF001AEA44 /* FoodMap */ = {
 			isa = PBXGroup;
 			children = (
+				3962F6E42500C083008A9060 /* Model */,
+				3962F6E32500C07E008A9060 /* View */,
+				3962F6E22500C07A008A9060 /* ViewModel */,
+				3962F6E52500C177008A9060 /* API */,
 				396D3B6924FFACFF001AEA44 /* AppDelegate.swift */,
 				396D3B6B24FFACFF001AEA44 /* SceneDelegate.swift */,
-				396D3B6D24FFACFF001AEA44 /* ViewController.swift */,
-				396D3B6F24FFACFF001AEA44 /* Main.storyboard */,
 				396D3B7224FFAD06001AEA44 /* Assets.xcassets */,
 				396D3B7424FFAD06001AEA44 /* LaunchScreen.storyboard */,
 				396D3B7724FFAD06001AEA44 /* Info.plist */,
@@ -128,6 +186,29 @@
 			path = FoodMapUITests;
 			sourceTree = "<group>";
 		};
+		3FC772FCB0E200D0F682FA72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E53C402BC56FCB786E4A7A1D /* Pods-FoodMap.debug.xcconfig */,
+				4D6B6CA9C307CB23A7FD336F /* Pods-FoodMap.release.xcconfig */,
+				15372BF8FF5ADD6AC740172A /* Pods-FoodMap-FoodMapUITests.debug.xcconfig */,
+				EAA18CA93BE5ADAB8C4ABDC7 /* Pods-FoodMap-FoodMapUITests.release.xcconfig */,
+				D8DD493E618A4709837F939C /* Pods-FoodMapTests.debug.xcconfig */,
+				734F40342CB57B7E052BB844 /* Pods-FoodMapTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D2BB2FF1AEE30550EFA36808 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2887204E6D593D255CED89AE /* Pods_FoodMap.framework */,
+				A7A46420D24DC05E58405420 /* Pods_FoodMap_FoodMapUITests.framework */,
+				D6CB3024C71B1208057224C4 /* Pods_FoodMapTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 396D3B9024FFAD07001AEA44 /* Build configuration list for PBXNativeTarget "FoodMap" */;
 			buildPhases = (
+				50B875171B1FD3D24B38C8A9 /* [CP] Check Pods Manifest.lock */,
 				396D3B6224FFACFF001AEA44 /* Sources */,
 				396D3B6324FFACFF001AEA44 /* Frameworks */,
 				396D3B6424FFACFF001AEA44 /* Resources */,
+				9CEC32FAF593EEABAC9E12BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +235,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 396D3B9324FFAD07001AEA44 /* Build configuration list for PBXNativeTarget "FoodMapTests" */;
 			buildPhases = (
+				7FC4FDEF91476BC1CAC26F7D /* [CP] Check Pods Manifest.lock */,
 				396D3B7824FFAD07001AEA44 /* Sources */,
 				396D3B7924FFAD07001AEA44 /* Frameworks */,
 				396D3B7A24FFAD07001AEA44 /* Resources */,
@@ -170,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 396D3B9624FFAD07001AEA44 /* Build configuration list for PBXNativeTarget "FoodMapUITests" */;
 			buildPhases = (
+				E60947E498909AC6E1A9ADDF /* [CP] Check Pods Manifest.lock */,
 				396D3B8324FFAD07001AEA44 /* Sources */,
 				396D3B8424FFAD07001AEA44 /* Frameworks */,
 				396D3B8524FFAD07001AEA44 /* Resources */,
+				8CF7B0DEC948090AA94C992B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,7 +294,7 @@
 				};
 			};
 			buildConfigurationList = 396D3B6124FFACFF001AEA44 /* Build configuration list for PBXProject "FoodMap" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -232,9 +318,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3962F6F42500DDE9008A9060 /* ShopInfoViewController.xib in Resources */,
 				396D3B7624FFAD06001AEA44 /* LaunchScreen.storyboard in Resources */,
 				396D3B7324FFAD06001AEA44 /* Assets.xcassets in Resources */,
-				396D3B7124FFACFF001AEA44 /* Main.storyboard in Resources */,
+				3962F6EA2500C51C008A9060 /* MapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +341,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50B875171B1FD3D24B38C8A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FC4FDEF91476BC1CAC26F7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodMapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CF7B0DEC948090AA94C992B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodMap-FoodMapUITests/Pods-FoodMap-FoodMapUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodMap-FoodMapUITests/Pods-FoodMap-FoodMapUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodMap-FoodMapUITests/Pods-FoodMap-FoodMapUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CEC32FAF593EEABAC9E12BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodMap/Pods-FoodMap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodMap/Pods-FoodMap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodMap/Pods-FoodMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E60947E498909AC6E1A9ADDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodMap-FoodMapUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		396D3B6224FFACFF001AEA44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				396D3B6E24FFACFF001AEA44 /* ViewController.swift in Sources */,
+				3962F6F02500C78C008A9060 /* MapXibView.swift in Sources */,
 				396D3B6A24FFACFF001AEA44 /* AppDelegate.swift in Sources */,
 				396D3B6C24FFACFF001AEA44 /* SceneDelegate.swift in Sources */,
+				3962F6F32500DDE8008A9060 /* ShopInfoViewController.swift in Sources */,
+				3962F6E92500C51C008A9060 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +489,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		396D3B6F24FFACFF001AEA44 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				396D3B7024FFACFF001AEA44 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		396D3B7424FFAD06001AEA44 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,11 +616,13 @@
 		};
 		396D3B9124FFAD07001AEA44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E53C402BC56FCB786E4A7A1D /* Pods-FoodMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8CF5UBGL4X;
 				INFOPLIST_FILE = FoodMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +636,13 @@
 		};
 		396D3B9224FFAD07001AEA44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D6B6CA9C307CB23A7FD336F /* Pods-FoodMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8CF5UBGL4X;
 				INFOPLIST_FILE = FoodMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,6 +656,7 @@
 		};
 		396D3B9424FFAD07001AEA44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8DD493E618A4709837F939C /* Pods-FoodMapTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +679,7 @@
 		};
 		396D3B9524FFAD07001AEA44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 734F40342CB57B7E052BB844 /* Pods-FoodMapTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +702,7 @@
 		};
 		396D3B9724FFAD07001AEA44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15372BF8FF5ADD6AC740172A /* Pods-FoodMap-FoodMapUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +723,7 @@
 		};
 		396D3B9824FFAD07001AEA44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAA18CA93BE5ADAB8C4ABDC7 /* Pods-FoodMap-FoodMapUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

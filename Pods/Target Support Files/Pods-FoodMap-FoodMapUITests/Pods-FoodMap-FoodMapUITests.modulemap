@@ -1,0 +1,6 @@
+framework module Pods_FoodMap_FoodMapUITests {
+  umbrella header "Pods-FoodMap-FoodMapUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
