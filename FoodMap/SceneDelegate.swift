@@ -15,25 +15,26 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
         self.window = window
-         window.makeKeyAndVisible()
-         let xibVC = ShopInfoViewController()
+        window.makeKeyAndVisible()
+        //起動時のVC指定
+        let xibVC = MapViewController()
         window.rootViewController = xibVC
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
-  
+
     }
 
     func sceneDidBecomeActive(_ scene: UIScene) {
-        
+
     }
 
     func sceneWillResignActive(_ scene: UIScene) {
-        
+
     }
 
     func sceneWillEnterForeground(_ scene: UIScene) {
-        
+
     }
 
     func sceneDidEnterBackground(_ scene: UIScene) {
