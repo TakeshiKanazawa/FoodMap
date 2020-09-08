@@ -56,5 +56,10 @@
 	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>このアプリでは、ルート案内のために現在地の取得を行います</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>

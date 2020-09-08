@@ -18,6 +18,9 @@
 		396D3B7624FFAD06001AEA44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396D3B7424FFAD06001AEA44 /* LaunchScreen.storyboard */; };
 		396D3B8124FFAD07001AEA44 /* FoodMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D3B8024FFAD07001AEA44 /* FoodMapTests.swift */; };
 		396D3B8C24FFAD07001AEA44 /* FoodMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D3B8B24FFAD07001AEA44 /* FoodMapUITests.swift */; };
+		399789372507394900B964B2 /* APIResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399789362507394900B964B2 /* APIResult.swift */; };
+		3997893925073E2400B964B2 /* HotPepperAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3997893825073E2400B964B2 /* HotPepperAPIClient.swift */; };
+		3997893B2507420900B964B2 /* HotPepperSearchAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3997893A2507420900B964B2 /* HotPepperSearchAPIModel.swift */; };
 		777026CCBBC5AF1D67A2865D /* Pods_FoodMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2887204E6D593D255CED89AE /* Pods_FoodMap.framework */; };
 		832D4E40E8D321D53CFF4F03 /* Pods_FoodMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6CB3024C71B1208057224C4 /* Pods_FoodMapTests.framework */; };
 		BF63D6F0029D824278E239F6 /* Pods_FoodMap_FoodMapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A46420D24DC05E58405420 /* Pods_FoodMap_FoodMapUITests.framework */; };
@@ -60,6 +63,9 @@
 		396D3B8724FFAD07001AEA44 /* FoodMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		396D3B8B24FFAD07001AEA44 /* FoodMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMapUITests.swift; sourceTree = "<group>"; };
 		396D3B8D24FFAD07001AEA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		399789362507394900B964B2 /* APIResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResult.swift; sourceTree = "<group>"; };
+		3997893825073E2400B964B2 /* HotPepperAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotPepperAPIClient.swift; sourceTree = "<group>"; };
+		3997893A2507420900B964B2 /* HotPepperSearchAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotPepperSearchAPIModel.swift; sourceTree = "<group>"; };
 		4D6B6CA9C307CB23A7FD336F /* Pods-FoodMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMap.release.xcconfig"; path = "Target Support Files/Pods-FoodMap/Pods-FoodMap.release.xcconfig"; sourceTree = "<group>"; };
 		734F40342CB57B7E052BB844 /* Pods-FoodMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMapTests.release.xcconfig"; path = "Target Support Files/Pods-FoodMapTests/Pods-FoodMapTests.release.xcconfig"; sourceTree = "<group>"; };
 		A7A46420D24DC05E58405420 /* Pods_FoodMap_FoodMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodMap_FoodMapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +106,7 @@
 		3962F6E22500C07A008A9060 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				3997893A2507420900B964B2 /* HotPepperSearchAPIModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 		3962F6E42500C083008A9060 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				399789362507394900B964B2 /* APIResult.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -126,6 +134,7 @@
 		3962F6E52500C177008A9060 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				3997893825073E2400B964B2 /* HotPepperAPIClient.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -449,9 +458,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3997893B2507420900B964B2 /* HotPepperSearchAPIModel.swift in Sources */,
 				3962F6F02500C78C008A9060 /* MapXibView.swift in Sources */,
 				396D3B6A24FFACFF001AEA44 /* AppDelegate.swift in Sources */,
+				3997893925073E2400B964B2 /* HotPepperAPIClient.swift in Sources */,
 				396D3B6C24FFACFF001AEA44 /* SceneDelegate.swift in Sources */,
+				399789372507394900B964B2 /* APIResult.swift in Sources */,
 				3962F6F32500DDE8008A9060 /* ShopInfoViewController.swift in Sources */,
 				3962F6E92500C51C008A9060 /* MapViewController.swift in Sources */,
 			);
