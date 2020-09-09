@@ -8,6 +8,7 @@ target 'FoodMap' do
   pod 'RxCocoa' 
   pod 'Alamofire'
   pod 'SwiftyJSON'
+  pod 'SDWebImage'
 
   # Pods for FoodMap
 
