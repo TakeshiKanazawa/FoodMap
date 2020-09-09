@@ -15,11 +15,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
         self.window = window
-        window.makeKeyAndVisible()
+   
         //起動時のVC指定
-        let xibVC = MapViewController()
-        window.rootViewController = xibVC
+//        let xibVC = MapViewController()
+//        window.rootViewController = xibVC
+        window.rootViewController = UINavigationController(rootViewController: MapViewController())
+        window.makeKeyAndVisible()
     }
+
+    
 
     func sceneDidDisconnect(_ scene: UIScene) {
 
