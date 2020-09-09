@@ -16,7 +16,6 @@
                 <outlet property="shop_Catch" destination="FbU-kT-L0D" id="db8-IK-v0N"/>
                 <outlet property="shop_Close_Time" destination="zNy-bt-BJq" id="2Sx-NC-Yau"/>
                 <outlet property="shop_Map" destination="f72-TZ-GvO" id="xzk-gz-y0R"/>
-                <outlet property="shop_URL" destination="4Pf-qV-39l" id="uhK-fn-ZbM"/>
                 <outlet property="shop_open_time" destination="afZ-ce-gub" id="3ai-Ed-2me"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -60,54 +59,54 @@
                                 </label>
                             </subviews>
                         </stackView>
-                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="37" translatesAutoresizingMaskIntoConstraints="NO" id="I9P-jS-hfo">
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="I9P-jS-hfo">
                             <rect key="frame" x="0.0" y="411.5" width="354" height="346.5"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="ej9-kw-OYr">
-                                    <rect key="frame" x="0.0" y="0.0" width="354" height="71.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="354" height="105"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="営業時間" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dwa-hh-7GU">
-                                            <rect key="frame" x="0.0" y="0.0" width="354" height="21.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="354" height="31.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                             <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="月～日、祝日、祝前日: 12:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:00" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afZ-ce-gub">
-                                            <rect key="frame" x="0.0" y="42.5" width="354" height="29"/>
+                                            <rect key="frame" x="0.0" y="52.5" width="354" height="52.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                 </stackView>
-                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="150" translatesAutoresizingMaskIntoConstraints="NO" id="oT2-nj-iuo">
-                                    <rect key="frame" x="0.0" y="108.5" width="354" height="31.5"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="oT2-nj-iuo">
+                                    <rect key="frame" x="0.0" y="139" width="354" height="23.5"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="平均予算" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jxh-Ga-iHO">
-                                            <rect key="frame" x="0.0" y="0.0" width="146" height="31.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="177" height="23.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                             <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2000 ~ 4000" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="goJ-L5-UXQ">
-                                            <rect key="frame" x="296" y="0.0" width="58" height="31.5"/>
+                                            <rect key="frame" x="177" y="0.0" width="177" height="23.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                 </stackView>
-                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="211" translatesAutoresizingMaskIntoConstraints="NO" id="60A-H9-eef">
-                                    <rect key="frame" x="0.0" y="177" width="354" height="62.5"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="60A-H9-eef">
+                                    <rect key="frame" x="0.0" y="196.5" width="354" height="24"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="休業日" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ah-lt-mTt">
-                                            <rect key="frame" x="0.0" y="0.0" width="136.5" height="62.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="177" height="24"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                             <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="土日祝日" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNy-bt-BJq">
-                                            <rect key="frame" x="347.5" y="0.0" width="6.5" height="62.5"/>
+                                            <rect key="frame" x="177" y="0.0" width="177" height="24"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -115,15 +114,21 @@
                                     </subviews>
                                 </stackView>
                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="tgl-Ue-U5U">
-                                    <rect key="frame" x="0.0" y="276.5" width="354" height="70"/>
+                                    <rect key="frame" x="0.0" y="254.5" width="354" height="92"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Pf-qV-39l">
-                                            <rect key="frame" x="0.0" y="0.0" width="172" height="70"/>
-                                            <state key="normal" title="詳しく見る"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="172" height="92"/>
+                                            <state key="normal" title="HotPepperに移動"/>
+                                            <connections>
+                                                <action selector="view_HPWeb:" destination="-1" eventType="touchUpInside" id="XLN-aW-xSK"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f72-TZ-GvO">
-                                            <rect key="frame" x="182" y="0.0" width="172" height="70"/>
-                                            <state key="normal" title="経路を表示"/>
+                                            <rect key="frame" x="182" y="0.0" width="172" height="92"/>
+                                            <state key="normal" title="地図アプリで経路表示"/>
+                                            <connections>
+                                                <action selector="open_Mapapp:" destination="-1" eventType="touchUpInside" id="n4k-4C-MnZ"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                 </stackView>

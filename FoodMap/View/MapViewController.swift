@@ -110,7 +110,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
                     let shopName = json["results"]["shop"][i]["name"].string ?? "店名が取得できませんでした"
                     let latitude = json["results"]["shop"][i]["lat"].double  ?? 0.0
                     let longitude = json["results"]["shop"][i]["lng"].double  ?? 0.0
-                    let shopGenre = json["results"]["shop"][i]["genre"]["name"].string  ?? "ジャンルが取得できませんでした"
+                    let shopGenre = json["results"]["shop"][i]["genre"]["name"].string  ??  "ジャンルが取得できませんでした"
                     let shopPhoto = json["results"]["shop"][i]["photo"]["pc"]["l"].string  ?? "写真が取得できませんでした"
                     let shop_Catch = json["results"]["shop"][i]["catch"].string  ?? "キャッチコピーが取得できませんでした"
                     let shop_open_time = json["results"]["shop"][i]["open"].string  ?? "営業時間が取得できませんでした"

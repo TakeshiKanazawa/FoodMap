@@ -21,6 +21,8 @@
 		399789372507394900B964B2 /* APIResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399789362507394900B964B2 /* APIResult.swift */; };
 		3997893925073E2400B964B2 /* HotPepperAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3997893825073E2400B964B2 /* HotPepperAPIClient.swift */; };
 		3997893B2507420900B964B2 /* HotPepperSearchAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3997893A2507420900B964B2 /* HotPepperSearchAPIModel.swift */; };
+		3997893E2508BCC100B964B2 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3997893C2508BCC100B964B2 /* WebViewController.swift */; };
+		3997893F2508BCC100B964B2 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3997893D2508BCC100B964B2 /* WebViewController.xib */; };
 		777026CCBBC5AF1D67A2865D /* Pods_FoodMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2887204E6D593D255CED89AE /* Pods_FoodMap.framework */; };
 		832D4E40E8D321D53CFF4F03 /* Pods_FoodMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6CB3024C71B1208057224C4 /* Pods_FoodMapTests.framework */; };
 		BF63D6F0029D824278E239F6 /* Pods_FoodMap_FoodMapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A46420D24DC05E58405420 /* Pods_FoodMap_FoodMapUITests.framework */; };
@@ -66,6 +68,8 @@
 		399789362507394900B964B2 /* APIResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResult.swift; sourceTree = "<group>"; };
 		3997893825073E2400B964B2 /* HotPepperAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotPepperAPIClient.swift; sourceTree = "<group>"; };
 		3997893A2507420900B964B2 /* HotPepperSearchAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotPepperSearchAPIModel.swift; sourceTree = "<group>"; };
+		3997893C2508BCC100B964B2 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		3997893D2508BCC100B964B2 /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
 		4D6B6CA9C307CB23A7FD336F /* Pods-FoodMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMap.release.xcconfig"; path = "Target Support Files/Pods-FoodMap/Pods-FoodMap.release.xcconfig"; sourceTree = "<group>"; };
 		734F40342CB57B7E052BB844 /* Pods-FoodMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodMapTests.release.xcconfig"; path = "Target Support Files/Pods-FoodMapTests/Pods-FoodMapTests.release.xcconfig"; sourceTree = "<group>"; };
 		A7A46420D24DC05E58405420 /* Pods_FoodMap_FoodMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodMap_FoodMapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +123,8 @@
 				3962F6EF2500C78C008A9060 /* MapXibView.swift */,
 				3962F6F12500DDE8008A9060 /* ShopInfoViewController.swift */,
 				3962F6F22500DDE8008A9060 /* ShopInfoViewController.xib */,
+				3997893C2508BCC100B964B2 /* WebViewController.swift */,
+				3997893D2508BCC100B964B2 /* WebViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -330,6 +336,7 @@
 				3962F6F42500DDE9008A9060 /* ShopInfoViewController.xib in Resources */,
 				396D3B7624FFAD06001AEA44 /* LaunchScreen.storyboard in Resources */,
 				396D3B7324FFAD06001AEA44 /* Assets.xcassets in Resources */,
+				3997893F2508BCC100B964B2 /* WebViewController.xib in Resources */,
 				3962F6EA2500C51C008A9060 /* MapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,6 +466,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3997893B2507420900B964B2 /* HotPepperSearchAPIModel.swift in Sources */,
+				3997893E2508BCC100B964B2 /* WebViewController.swift in Sources */,
 				3962F6F02500C78C008A9060 /* MapXibView.swift in Sources */,
 				396D3B6A24FFACFF001AEA44 /* AppDelegate.swift in Sources */,
 				3997893925073E2400B964B2 /* HotPepperAPIClient.swift in Sources */,
