@@ -84,15 +84,6 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         }
     }
     
-//    func mapView(_mapView: MKMapView, didSelect view: MKAnnotationView) {
-//
-//        let annotation = view.annotation
-//        let id = annotation?.title
-//        print(id)
-//        let mainViewController = ShopInfoViewController()
-//        self.present(mainViewController, animated: true, completion: nil)
-//
-//    }
   
     func getData() {
         let text = "http://webservice.recruit.co.jp/hotpepper/gourmet/v1/?key=c670a187d5210c60&lat=\(lat)&lng=\(lng)&range=5&order=4&format=json&count=20"
@@ -129,9 +120,6 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
                     annotation.customTruckId = shopId
 
                     self.mapView.addAnnotation(annotation)
-//                    let apiStruct = APIResult(shopName: shopName, lat: latitude , lng: longitude , shopGenre: shopGenre , shopPhoto: shopPhoto , shop_Catch: shop_Catch , shop_open_time: shop_open_time , ave_Budget: ave_Budget , shop_Close_Time: shop_Close_Time , shop_URL: shop_URL )
-//
-//                    self.results.append(apiStruct)
                     
                 }
 
