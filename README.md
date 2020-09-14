@@ -18,8 +18,7 @@
 | Layout                  | 1 StoryBoard + 1 Xib      | 
 | Development environment |  xcode 11.0, swift5       | 
 | CI/CD                   | Bitrise/fastlane          | 
-| libraries               | RxSwift,RxCocoa,AlamoFire | 
-| submit                  | 9/7                       | 
+| libraries               | RxSwift,RxCocoa,AlamoFire |  
 
 ### 概要
  - 突発的な飲み会でお店を探せるアプリ。
@@ -48,9 +47,4 @@ UnitTest環境の構築
 ・お店をタップで店舗情報が見れる
 ・絞り込み機能
 ・検索中はloading画面を表示させる
-
-### 完成目標
- - 9/7 AppStore 提出目標
- 
-## "Done Is Better Than Perfct!"
 
